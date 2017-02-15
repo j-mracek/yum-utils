@@ -33,10 +33,10 @@ install:
 	mkdir -p $(DESTDIR)/usr/sbin/
 	mkdir -p $(DESTDIR)/usr/share/man/man1
 	for util in $(UTILS); do \
-		install -m 755 $$util.py $(DESTDIR)/usr/bin/$$util; \
+		install -m 755 $$util.py $(DESTDIR)/usr/bin/$$util-deprecated; \
 	done
 	for util in $(UTILSROOT); do \
-		install -m 755 $$util.py $(DESTDIR)/usr/sbin/$$util; \
+		install -m 755 $$util.py $(DESTDIR)/usr/sbin/$$util-deprecated; \
 	done
 
 	for d in $(SUBDIRS); do make DESTDIR=`cd $(DESTDIR); pwd` -C $$d install; [ $$? = 0 ] || exit 1; done

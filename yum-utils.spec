@@ -9,7 +9,7 @@
 
 Summary: Utilities based around the yum package manager
 Name: yum-utils
-Version: 1.1.31
+Version: 1.1.32
 Release: 1%{?dist}
 License: GPLv2+
 Group: Development/Tools
@@ -465,54 +465,54 @@ fi
 %doc COPYING
 %doc plugins/README
 %{_sysconfdir}/bash_completion.d
-%{_bindir}/debuginfo-install
-%{_bindir}/find-repos-of-install
-%{_bindir}/needs-restarting
-%{_bindir}/package-cleanup
-%{_bindir}/repoclosure
-%{_bindir}/repodiff
-%{_bindir}/repomanage
-%{_bindir}/repoquery
-%{_bindir}/repotrack
-%{_bindir}/reposync
-%{_bindir}/repo-graph
-%{_bindir}/repo-rss
-%{_bindir}/verifytree
-%{_bindir}/yumdownloader
-%{_bindir}/yum-builddep
-%{_bindir}/yum-config-manager
-%{_bindir}/yum-debug-dump
-%{_bindir}/yum-debug-restore
-%{_bindir}/yum-groups-manager
-%{_bindir}/show-installed
-%{_bindir}/show-changed-rco
-%{_sbindir}/yum-complete-transaction
-%{_sbindir}/yumdb
+%{_bindir}/debuginfo-install-deprecated
+%{_bindir}/find-repos-of-install-deprecated
+%{_bindir}/needs-restarting-deprecated
+%{_bindir}/package-cleanup-deprecated
+%{_bindir}/repoclosure-deprecated
+%{_bindir}/repodiff-deprecated
+%{_bindir}/repomanage-deprecated
+%{_bindir}/repoquery-deprecated
+%{_bindir}/repotrack-deprecated
+%{_bindir}/reposync-deprecated
+%{_bindir}/repo-graph-deprecated
+%{_bindir}/repo-rss-deprecated
+%{_bindir}/verifytree-deprecated
+%{_bindir}/yumdownloader-deprecated
+%{_bindir}/yum-builddep-deprecated
+%{_bindir}/yum-config-manager-deprecated
+%{_bindir}/yum-debug-dump-deprecated
+%{_bindir}/yum-debug-restore-deprecated
+%{_bindir}/yum-groups-manager-deprecated
+%{_bindir}/show-installed-deprecated
+%{_bindir}/show-changed-rco-deprecated
+%{_sbindir}/yum-complete-transaction-deprecated
+%{_sbindir}/yumdb-deprecated
 %{python_sitelib}/yumutils/
 %{_mandir}/man1/yum-utils.1.*
-%{_mandir}/man1/debuginfo-install.1.*
-%{_mandir}/man1/package-cleanup.1.*
-%{_mandir}/man1/repo-rss.1.*
-%{_mandir}/man1/repoquery.1.*
-%{_mandir}/man1/repodiff.1.*
-%{_mandir}/man1/reposync.1.*
-%{_mandir}/man1/show-changed-rco.1.*
-%{_mandir}/man1/show-installed.1.*
-%{_mandir}/man1/yum-builddep.1.*
-%{_mandir}/man1/yum-debug-dump.1.*
-%{_mandir}/man1/yum-debug-restore.1.*
-%{_mandir}/man8/yum-complete-transaction.8.*
-%{_mandir}/man1/yum-groups-manager.1.*
-%{_mandir}/man8/yumdb.8.*
-%{_mandir}/man1/yumdownloader.1.*
-%{_mandir}/man1/find-repos-of-install.1.*
-%{_mandir}/man1/needs-restarting.1.*
-%{_mandir}/man1/repo-graph.1.*
-%{_mandir}/man1/repoclosure.1.*
-%{_mandir}/man1/repomanage.1.*
-%{_mandir}/man1/repotrack.1.*
-%{_mandir}/man1/verifytree.1.*
-%{_mandir}/man1/yum-config-manager.1.*
+%{_mandir}/man1/debuginfo-install-deprecated.1.*
+%{_mandir}/man1/package-cleanup-deprecated.1.*
+%{_mandir}/man1/repo-rss-deprecated.1.*
+%{_mandir}/man1/repoquery-deprecated.1.*
+%{_mandir}/man1/repodiff-deprecated.1.*
+%{_mandir}/man1/reposync-deprecated.1.*
+%{_mandir}/man1/show-changed-rco-deprecated.1.*
+%{_mandir}/man1/show-installed-deprecated.1.*
+%{_mandir}/man1/yum-builddep-deprecated.1.*
+%{_mandir}/man1/yum-debug-dump-deprecated.1.*
+%{_mandir}/man1/yum-debug-restore-deprecated.1.*
+%{_mandir}/man8/yum-complete-transaction-deprecated.8.*
+%{_mandir}/man1/yum-groups-manager-deprecated.1.*
+%{_mandir}/man8/yumdb-deprecated.8.*
+%{_mandir}/man1/yumdownloader-deprecated.1.*
+%{_mandir}/man1/find-repos-of-install-deprecated.1.*
+%{_mandir}/man1/needs-restarting-deprecated.1.*
+%{_mandir}/man1/repo-graph-deprecated.1.*
+%{_mandir}/man1/repoclosure-deprecated.1.*
+%{_mandir}/man1/repomanage-deprecated.1.*
+%{_mandir}/man1/repotrack-deprecated.1.*
+%{_mandir}/man1/verifytree-deprecated.1.*
+%{_mandir}/man1/yum-config-manager-deprecated.1.*
 
 %files -n yum-updateonboot
 %defattr(-, root, root)
